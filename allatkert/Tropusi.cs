@@ -20,5 +20,10 @@ namespace allatkert
 			suly = 4;
 			eloHely = "tropusi";
 		}
-	}
+
+        public string Name { get => name; set => name = value; }
+        public int Sebesseg { get => sebesseg; set => sebesseg = value; }
+        public int Suly { get => suly; set => suly = value; }
+        public string EloHely { get => eloHely; set => eloHely = value; }
+    }
 }
